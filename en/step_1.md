@@ -1,45 +1,58 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Print a disgusting welcome</h2>
 
-A brief description - one or two sentences. 
+--- task ---
 
---- print-only ---
+Use <code>print()</code> to show a welcome message for your disgusting recipe card.
 
-![ALT TEXT](images/IMAGE.png)
+--- /task ---
 
---- /print-only ---
+<h2 class="c-project-heading--explainer">Set the scene</h2>
 
---- no-print ---
+You've just been hired as the printer for a very strange restaurant.  
+Your job? To print out disgusting recipe cards for their latest menu!
 
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
+In Python, text is called a <strong>string</strong>. You can make Python show a string on screen using <code>print()</code>.  
+Each time you use <code>print()</code>, Python starts a new line in the output.
 
---- /no-print ---
+Start by printing a welcome message for your disgusting dish.
 
---- no-print ---
+<div class="c-project-code">
 
-Video embed
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 1-2
+---
+print('🤢 Welcome to the DISGUSTING DISHES cookbook! 🤮')
+print()
+--- /code ---
 
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
 </div>
 
---- /no-print ---
+<div class="c-project-output">
 
-### You will need:
-- a
-- b
-- c
+<pre>🤢 Welcome to the DISGUSTING DISHES cookbook! 🤮</pre>
+
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Try adding your own emojis or changing the words in your welcome message!<br />
+Some fun emoji to try: 🤢 🤮 🧠 🦠 💀 🐛 👃<br />
+Add your own emoji by pressing `⊞ Win` + `.` on Windows or `⌘ Cmd` + `Ctrl` + `Space` on macOS. 
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+- Did you forget the brackets in <code>print()</code>?<br />
+- Make sure your message is inside quotes
+
+</div>
