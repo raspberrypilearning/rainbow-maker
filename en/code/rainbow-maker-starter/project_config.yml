@@ -1,0 +1,4 @@
+name: "Rainbow maker starter"
+identifier: "rainbow-maker-starter"
+type: 'python'
+build: true

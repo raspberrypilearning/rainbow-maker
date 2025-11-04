@@ -1,0 +1,4 @@
+name: "Rainbow maker complete"
+identifier: "rainbow-maker-complete"
+type: 'python'
+build: true
