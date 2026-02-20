@@ -6,3 +6,5 @@ pdf: false
 steps:
   - title: step 1
   - title: step 2
+  - title: step 3
+
