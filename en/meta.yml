@@ -5,3 +5,4 @@ listed: false
 pdf: false
 steps:
   - title: step 1
+  - title: step 2
