@@ -31,7 +31,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 6
-line_highlights: 11,17
+line_highlights: 11,15
 ---
 # Rainbow data
 sky = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
