@@ -8,10 +8,11 @@ Run the code to see what happens, then add some data to draw your first red stri
 
 <h2 class="c-project-heading--explainer">A library for colourful art</h2>
 
-You’re going to use a powerful graphing library called <strong>Matplotlib</strong> — but instead of graphs, you’ll make a rainbow! 🌈  
-When you first press <strong>Run</strong>, you’ll just see an empty window — your blank canvas.  
+You’re going to use a powerful graphing library called *Matplotlib* — but instead of graphs, you’ll make a rainbow! 🌈 
 
-Next, you’ll add some data to draw the red arc of your rainbow.
+Click *Run*. You’ll just see the axis for a graph.
+
+Add some data to create a 
 
 <div class="c-project-code">
 
@@ -20,7 +21,7 @@ Next, you’ll add some data to draw the red arc of your rainbow.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
+line_number_start: 6
 line_highlights: 7-8,14
 ---
 # Rainbow data
@@ -31,7 +32,7 @@ red = [10, 24, 31, 24, 10]
 
 
 # Draw the rainbow
-ax.plot(sky, red,    color='red',    linewidth=9)
+ax.plot(sky, red, color='red', linewidth=9)
 --- /code ---
 
 </div>
@@ -46,8 +47,9 @@ ax.plot(sky, red,    color='red',    linewidth=9)
 
 ### Tip
 
-Try changing the numbers in <code>red</code> — bigger numbers make the arc higher!  
-You can also change <code>color='red'</code> to another colour name like <code>'green'</code> or <code>'pink'</code>.
+Try changing the numbers in `red` — bigger numbers make the arc higher!
+  
+You can also change `color='red'` to another colour name like `'green'` or `'pink'`.
 
 </div>
 
@@ -55,8 +57,8 @@ You can also change <code>color='red'</code> to another colour name like <code>'
 
 ### Debugging
 
-- Did you spell <code>color</code> the American way (with no “u”)?  
-- If nothing appears, check that you wrote <code>ax.plot(...)</code> exactly as shown.  
-- Make sure your lists use square brackets: <code>[ ]</code> not <code>( )</code>.
+- Did you spell `color` the American way (with no “u”)?  
+- If nothing appears, check that you wrote `ax.plot(...)` exactly as shown.  
+- Make sure your lists use square brackets: `[ ]` not `( )`.
 
 </div>
