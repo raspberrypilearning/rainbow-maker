@@ -10,9 +10,9 @@ Run the code to see what happens, then add some data to draw your first red stri
 
 You’re going to use a powerful graphing library called *Matplotlib* — but instead of graphs, you’ll make a rainbow! 🌈 
 
-Click *Run*. You’ll just see the axis for a graph.
+Click *Run*. You’ll just see the axes of a graph. That’s your blank canvas.
 
-Add some data to create a 
+Now add some data to create your first red rainbow stripe.
 
 <div class="c-project-code">
 
@@ -39,7 +39,7 @@ ax.plot(sky, red, color='red', linewidth=9)
 
 <div class="c-project-output">
 
-<img src="/images/rainbow-red-jagged.png" alt="A red, slightly jagged arc drawn across the window." />
+![A white graph with visible axes showing a thick red line forming a pointed rainbow shape. The line rises from the bottom left, peaks near the centre, then slopes back down to the bottom right, creating a jagged arc.](images/step_1.jpg)
 
 </div>
 
@@ -48,7 +48,7 @@ ax.plot(sky, red, color='red', linewidth=9)
 ### Tip
 
 Try changing the numbers in `red` — bigger numbers make the arc higher!
-  
+
 You can also change `color='red'` to another colour name like `'green'` or `'pink'`.
 
 </div>
